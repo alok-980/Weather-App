@@ -1,0 +1,43 @@
+.weatherInfoContainer {
+    margin: 0 3rem 1rem 3rem;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currentInfo {
+    width: 30%;
+}
+
+.futureInfo {
+    width: 65%;
+}
+
+@media screen and (max-width: 1024px) {
+    .weatherInfoContainer {
+        margin: 0 1.5rem;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .currentInfo, .futureInfo {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .weatherInfoContainer {
+        margin: 0.5rem;
+        flex-direction: column;
+        height: auto;
+        gap: 1.5rem;
+    }
+
+    .currentInfo, .futureInfo {
+        width: 90%;
+        text-align: center;
+    }
+}

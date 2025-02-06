@@ -1,0 +1,46 @@
+.weather {
+    border: 2px solid #b2b3bb;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    padding: 0.5rem;
+}
+
+.weather i {
+    color: #7284ff;
+}
+
+.sortInfo {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.sortInfo p {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+.divider {
+    width: 1.5px;
+    height: 6rem; 
+    background-color: #b2b3bb;
+    margin: 0 20px;
+}
+
+.icon svg {
+    font-size: 2rem; 
+}
+
+.description {
+    border-radius: 1rem;
+    background: linear-gradient(to right, #b3baff, #6787ff);
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    color: white;
+}
