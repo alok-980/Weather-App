@@ -1,0 +1,18 @@
+.infoContainer {
+    border: 2px solid #f0fcfd;
+    border-radius: 0.8rem;
+    margin: 0 3rem 1rem 3rem;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 40vh;
+    color: #f0fcfd;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: large;
+}
+
+.tempInfo svg {
+    font-size: 3rem;
+    filter: drop-shadow(3px 3px 10px black);
+}
